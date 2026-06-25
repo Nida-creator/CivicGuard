@@ -44,55 +44,7 @@ It doesn't just give you a verdict — it explains exactly *why* something is su
 | Deployment | Vercel |
 | APIs | HuggingFace Inference API · Groq API |
 
----
 
-## Run it locally
-
-**Backend**
-
-```bash
-cd civicguard/backend
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-Create a `.env` file:
-```
-HUGGINGFACE_API_TOKEN=your_token_here
-GROQ_API_KEY=your_key_here
-```
-
-```bash
-uvicorn main:app --reload --port 8000
-```
-Backend runs at: http://localhost:8000
-
-**Frontend**
-
-```bash
-cd civicguard/frontend
-npm install
-```
-
-Create a `.env` file:
-```
-VITE_BACKEND_URL=http://localhost:8000
-```
-
-```bash
-npm run dev
-```
-App runs at: http://localhost:3000
-
-**Get free API keys**
-- HuggingFace: [huggingface.co](https://huggingface.co) → Settings → Access Tokens
-- Groq: [console.groq.com](https://console.groq.com) → API Keys
 
 ---
 
