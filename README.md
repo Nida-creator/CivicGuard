@@ -5,6 +5,14 @@
 
 ---
 
+## Screenshots
+
+![Homepage](screenshots/homepage.png)
+![Phishing Detected](screenshots/phishing-detected.png)
+![Safe Message](screenshots/safe-message.png)
+
+---
+
 ## What it does
 
 CivicGuard is a bilingual (Urdu/English) web app that helps Pakistani citizens identify scams before they become victims.
